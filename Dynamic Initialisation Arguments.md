@@ -1,3 +1,4 @@
+![DYN logo](https://github.com/duality-solutions/Logos/blob/master/Duality%20Logos/Dynamic/PNG/128x128.png)
 DYNAMIC INITIALISATION ARGUMENTS
 ================================
 
