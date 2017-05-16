@@ -1,4 +1,4 @@
-![DYN logo](https://github.com/duality-solutions/Logos/blob/master/Duality%20Logos/Dynamic/PNG/96x96.png)List of Dynamic RPC Commands
+![DYN logo](https://github.com/duality-solutions/Logos/blob/master/Duality%20Logos/Dynamic/PNG/48x48.png)List of Dynamic RPC Commands
 ============================
 ￼
 Address Index
