@@ -1,7 +1,8 @@
 List of Dynamic RPC Commands
-----------------------------
+============================
 ￼
 == Address Index ==
+-------------------
 
 getaddressbalance
 getaddressdeltas
