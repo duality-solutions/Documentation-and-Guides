@@ -43,15 +43,15 @@ Control
 
 DDNS
 ----
-* name_delete <name>
+* name_delete [name]
 * name_filter [regexp] [maxage=0] [from=0] [nb=0] [stat] [valuetype]
-* name_history <name> [fullhistory] [valuetype]
+* name_history [name] [fullhistory] [valuetype]
 * name_list [name] [valuetype]
 * name_mempool [valuetype]
-* name_new <name> <value> <days> [toaddress] [valuetype]
+* name_new [name] [value] [name] [toaddress] [valuetype]
 * name_scan [start-name] [max-returned] [max-value-length=-1] [valuetype]
-* name_show <name> [valuetype] [filepath]
-* name_update <name> <value> <days> [toaddress] [valuetype]
+* name_show [name] [valuetype] [filepath]
+* name_update [name] [value] [days] [toaddress] [valuetype]
 
 
 Dynamic
@@ -66,8 +66,8 @@ Dynamic
 * getsuperblockbudget index
 * gobject "command"...
 * privatesend "command"
-* spork <name> [<value>]
-* voteraw <dynode-tx-hash> <dynode-tx-index> <governance-hash> <vote-signal> [yes|no|abstain] <time> <vote-sig>
+* spork [name] ([value])
+* voteraw [dynode-tx-hash] [dynode-tx-index] [governance-hash] [vote-signal] (yes|no|abstain) [time] [vote-sig]
 
 
 Generating
@@ -94,8 +94,8 @@ Mining
 * getnetworkhashps ( blocks height )
 * getpowrewardstart [nHeight]
 * getwork ( "data" )
-* prioritisetransaction <txid> <priority delta> <fee delta>
-* submitblock "hexdata" ( "jsonparametersobject" )
+* prioritisetransaction [txid] [priority delta] [fee delta]
+* submitblock "hexdata" ("jsonparametersobject")
 
 
 Network
