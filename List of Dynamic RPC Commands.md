@@ -1,36 +1,35 @@
 List of Dynamic RPC Commands
 ============================
 ￼
-== Address Index ==
+Address Index
 -------------------
+* getaddressbalance
+* getaddressdeltas
+* getaddressmempool
+* getaddresstxids
+* getaddressutxos
 
-getaddressbalance
-getaddressdeltas
-getaddressmempool
-getaddresstxids
-getaddressutxos
 
-
-== Blockchain ==
-
-getbestblockhash
-getblock "hash" ( verbose )
-getblockchaininfo
-getblockcount
-getblockhash index
-getblockhashes timestamp
-getblockheader "hash" ( verbose )
-getblockheaders "hash" ( count verbose )
-getchaintips ( count branchlen )
-getdifficulty
-getmempoolinfo
-getrawmempool ( verbose )
-getspentinfo
-gettxout "txid" n ( includemempool )
-gettxoutproof ["txid",...] ( blockhash )
-gettxoutsetinfo
-verifychain ( checklevel numblocks )
-verifytxoutproof "proof"
+Blockchain
+----------
+* getbestblockhash
+* getblock "hash" ( verbose )
+* getblockchaininfo
+* getblockcount
+* getblockhash index
+* getblockhashes timestamp
+* getblockheader "hash" ( verbose )
+* getblockheaders "hash" ( count verbose )
+* getchaintips ( count branchlen )
+* getdifficulty
+* getmempoolinfo
+* getrawmempool ( verbose )
+* getspentinfo
+* gettxout "txid" n ( includemempool )
+* gettxoutproof ["txid",...] ( blockhash )
+* gettxoutsetinfo
+* verifychain ( checklevel numblocks )
+* verifytxoutproof "proof"
 
 
 == Control ==
