@@ -5,13 +5,13 @@ nav:
     - 'The Fluid Protocol': 'fluid-protocol.md'
 - Documentation:
     - 'Dynamic': 'Dynamic README.md'
-    - 'Dynamic build guide on OSX': 'Dynamic OSX Build Guide'
-    - 'Dynamic build guide on Unix': 'Dynamic UNIX Build Guide'
+    - 'Dynamic build guide on OSX': 'Dynamic OSX Build Guide.md'
+    - 'Dynamic build guide on Unix': 'Dynamic UNIX Build Guide.md'
     - 'Dynamic Initialisation Arguments': 'Dynamic Initialisation Arguments.md'
     - 'Dynamic RPC Commands': 'List of Dynamic RPC Commands.md'
-    - 'Sequence': 'Sequence README'
-    - 'Sequence build guide OSX': ''
-    - 'Sequence build guide UNIX': ''
+    - 'Sequence': 'Sequence README.md'
+    - 'Sequence build guide OSX': 'Sequence OSX Build Guide.md'
+    - 'Sequence build guide UNIX': 'Sequence UNIX Build Guide.md'
 - About:
     - 'FAQ': 'faq.md'
     - 'License': 'license.md'
