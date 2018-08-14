@@ -24,7 +24,7 @@ Here is an index of the different PDF documents which we include in documentatio
 * [SEQ Guide - How to split coins for better staking](SEQ Guide - How to split coins for better staking.pdf)
 
 ## About
-This document and guide repository is a mkdocs project built with `mkdocs-material`. You can view an active version [here](duality-solutions.github.io). We included the mkdocs.yml file here in the repository for you to create it on your own if you wish.
+This document and guide repository is a mkdocs project built with `mkdocs-material`. You can view an active version [here](http://duality-solutions.github.io). We included the mkdocs.yml file here in the repository for you to create it on your own if you wish.
 
 ## Get in Touch
 * [Discord](https://discord.gg/NCCPaJd)

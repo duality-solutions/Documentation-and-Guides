@@ -45,7 +45,7 @@ Optional dependencies:
  libqrencode | QR codes in GUI  | Optional for generating QR codes (only needed when GUI enabled)
  libzmq3     | ZMQ notification | Optional, allows generating ZMQ notifications (requires ZMQ version >= 4.x)
  
-For the versions used in the release, see [release-process.md](release-process.md) under *Fetch and build inputs*.
+For the versions used in the release, see [release-process.md](https://rawgit.com/duality-solutions/Dynamic/master/doc/release-process.md) under *Fetch and build inputs*.
 
 System requirements
 --------------------
