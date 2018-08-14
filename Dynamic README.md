@@ -10,7 +10,7 @@ Graph on Pull Request History
 
 # **Dynamic (DYN) v2.2.0.0**
 
-![DYN logo](https://github.com/duality-solutions/Dynamic/blob/master/src/qt/res/icons/drk/about.png)
+![DYN logo](https://rawgit.com/duality-solutions/Dynamic/master/src/qt/res/icons/drk/about.png)
 
 **Copyright (c) 2016-2018 [Duality Blockchain Solutions](https://duality.solutions/)**
 
@@ -63,7 +63,7 @@ Magic Bytes = 0x3f 0x42 0x25 0x4f
 
 UNIX BUILD NOTES
 ====================
-Some notes on how to build [Dynamic](https://duality.solutions/dynamic) in Unix. 
+Some notes on how to build [Dynamic](/Dynamic UNIX Build Guide) in Unix. 
 
 Note
 ---------------------
@@ -109,7 +109,7 @@ Optional dependencies:
  libqrencode | QR codes in GUI  | Optional for generating QR codes (only needed when GUI enabled)
  libzmq3     | ZMQ notification | Optional, allows generating ZMQ notifications (requires ZMQ version >= 4.x)
  
-For the versions used in the release, see [release-process.md](release-process.md) under *Fetch and build inputs*.
+For the versions used in the release, see [release-process.md](https://rawgit.com/duality-solutions/Dynamic/master/doc/release-process.md) under *Fetch and build inputs*.
 
 System requirements
 --------------------
