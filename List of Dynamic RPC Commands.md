@@ -81,7 +81,7 @@
 * getfluidsovereigns
 * gettime
 * getrawpubkey "address"
-* maketoken "amount" "time" "receive address>"
+* maketoken "amount" "time" "receive address"
 * sendfluidtransaction "hexstring"
 * signtoken "address" "tokenkey"
 * verifyquorum "tokenkey"

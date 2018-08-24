@@ -44,7 +44,7 @@ To run the examples on testnet, you will need to import the private keys for at 
 * getfluidsovereigns
 * gettime
 * getrawpubkey "address"
-* maketoken "amount" "time" "receive address>"
+* maketoken "amount" "time" "receive address"
 * sendfluidtransaction "hexstring"
 * signtoken "address" "tokenkey"
 * verifyquorum "tokenkey"
