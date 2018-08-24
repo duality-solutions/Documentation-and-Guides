@@ -1,4 +1,5 @@
 # The Fluid Protocol
+
 #### Progressive updating of blockchain parameters without hard forking
 
 
@@ -6,7 +7,7 @@
 Duality Blockchain Solutions LLC is a blockchain as a service (BaaS) provider for our clients. As such, Duality needs a way to self-regulate the decentralized blockchain. The fluid protocol is the answer to the problem mentioned above without going through contentious hard forking scenarios. The core of the protocol, as of right now, can generate or mint new coins, change Dynode rewards, and change miner rewards. In the future, other additional changes to the consensus rules will follow.
 
 
-# Fluid Protocol Use Case
+## Fluid Protocol Use Case
 
 The market demand for alternative methods of money is present and here to stay with the advent of the Internet, the 2008 market crash, and overall lack of government accountability. Digital currencies are the answer to the rising needs of the market. In late 2008-2009, Bitcoin was the response of unaccountable government from the brilliant mind of Satoshi Nakamoto. While fast transactions, no middle-men, and cryptographic proofs provided transparency in Bitcoin, it did not offer the same level of features that the market wanted. The market enjoys regulatory oversight, uniform rules among a shared jurisdiction, and arbitration.
 
@@ -15,7 +16,7 @@ Duality Solutions is responding to such market needs with self-regulation, added
 From a technical level, there are five sovereign wallets, think of them as arbitrators, who need three out of five sovereign wallets signatures to make a decision. In essence, a counterparty mechanism to prevent abuse from malicious users. In traditional banking and finance, banks and third parties are the ultimate approval mechanisms for transactions and changes within the financial network. The way to traverse and avoid the need for a final arbitrator is by spreading the power among multiple, vested parties. In digital currencies, this is called counterparty risk, and multi-signature wallets, which is an account where a specified amount of people out of the total amount are needed to move the funds out of the wallet, are the solution for addressing counterparty risk. The Fluid protocol is that for the Dynamic blockchain.
 
 
-# Technical Documentation
+## Technical Documentation
 The writer assumes the reader has a basic understanding of the Dynamic blockchain, wallet addresses, and Dynodes.
 
 The Fluid protocol gives “sovereign” wallet addresses control of the blockchain’s parameters, multi-signature addresses for the blockchain, using specific transactions.  Usually, it requires a hard fork to change the consensus rules for a blockchain such as changing the rewards.  With Fluid, static consensus rules change when 3 out of 5 sovereign wallet addresses sign a Fluid transaction. Fluid transactions perform the following actions in the current implementation:
@@ -35,8 +36,7 @@ Workflow:  Currently, there are only RPC commands to create and view Fluid trans
 
 To run the examples on testnet, you will need to import the private keys for at least three sovereign testnet wallet address.  All Fluid transaction cost 100,000 DYN to run so you will need to verify you have the balance when you send the transaction in the last step.
 
-## Fluid RPC Calls
---------------
+### Fluid RPC Calls
 * burndynamic "amount" "account"
 * consenttoken "address" "tokenkey"
 * getfluidhistory
@@ -49,20 +49,21 @@ To run the examples on testnet, you will need to import the private keys for at 
 * signtoken "address" "tokenkey"
 * verifyquorum "tokenkey"
 
-## Fluid Protocol Code
+### Fluid Protocol Code
 All of the code for the fluid protocol can be found in these files:
 
 * [fluid.h](https://github.com/duality-solutions/Dynamic/blob/master/src/fluid.h)
 * [fluid.cpp](https://github.com/duality-solutions/Dynamic/blob/master/src/fluid.cpp)
 * [rpcfluid.cpp](https://github.com/duality-solutions/Dynamic/blob/master/src/rpcfluid.cpp)
 
+
+## Importing a Sovereign Wallet Address
 The Dynamic testnet has 5 initial sovereign wallet addresses. This example shows how to import the sovereign private key:
 
 * DSCex4e189aULrig3nLd42gVf7AbjTwnP5
 * DMAh37n3RUdDxox3uiWAnc1zEPp5yFbHiL
 * DN4KvqtXyygooPV3oha72TyBB5nqBbkxwj
 
-## Importing a Sovereign Wallet Address
 ~~~ bash
 # Import DSCex4e189aULrig3nLd42gVf7AbjTwnP5 sovereign wallet address 
 $./dynamic-cli importprivkey QVKXuZ2hSo2cT9BhkN3CApLuZYVsuzNvidJRt1ucyniHheZ2Pfq5
