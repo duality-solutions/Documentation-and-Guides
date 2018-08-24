@@ -1,9 +1,9 @@
 ![DYN logo](https://github.com/duality-solutions/Logos/blob/master/Duality%20Logos/Dynamic/PNG/128x128.png)
 
-List of Dynamic RPC Commands
+# List of Dynamic RPC Commands
 ============================
 ￼
-Address Index
+## Address Index
 -------------------
 * getaddressbalance
 * getaddressdeltas
@@ -12,7 +12,7 @@ Address Index
 * getaddressutxos
 
 
-Blockchain
+## Blockchain
 ----------
 * getbestblockhash
 * getblock "hash" ( verbose )
@@ -34,7 +34,7 @@ Blockchain
 * verifytxoutproof "proof"
 
 
-Control
+## Control
 -------
 * debug ( 0|1|addrman|alert|bench|coindb|db|lock|rand|rpc|selectcoins|mempool|mempoolrej|net|proxy|prune|http|libevent|tor|zmq|dynamic|privatesend|instantsend|dynode|spork|keepass|dnpayments|gobject )
 * getinfo
@@ -43,7 +43,7 @@ Control
 * stop
 
 
-DDNS
+## DDNS
 ----
 * name_delete [name]
 * name_filter [regexp] [maxage=0] [from=0] [nb=0] [stat] [valuetype]
@@ -56,7 +56,7 @@ DDNS
 * name_update [name] [value] [days] [toaddress] [valuetype]
 
 
-Dynamic
+## Dynamic
 -------
 * dnsync [status|next|reset]
 * dynode "command"...
@@ -72,7 +72,22 @@ Dynamic
 * voteraw [dynode-tx-hash] [dynode-tx-index] [governance-hash] [vote-signal] (yes|no|abstain) [time] [vote-sig]
 
 
-Generating
+## Fluid Protocol
+--------------
+* burndynamic "amount" "account"
+* consenttoken "address" "tokenkey"
+* getfluidhistory
+* getfluidhistoryraw
+* getfluidsovereigns
+* gettime
+* getrawpubkey "address"
+* maketoken "amount" "time" "receive address>"
+* sendfluidtransaction "hexstring"
+* signtoken "address" "tokenkey"
+* verifyquorum "tokenkey"
+
+
+## Generating
 ----------
 * generate numblocks
 * getgenerate
@@ -80,7 +95,7 @@ Generating
 * setgenerate generate ( genproclimit )
 
 
-Hidden
+## Hidden
 ------
 * invalidateblock "hash"
 * name_debug
@@ -89,7 +104,7 @@ Hidden
 * setmocktime timestamp
 
 
-Mining
+## Mining
 ------
 * getblocktemplate ( "jsonrequestobject" )
 * getmininginfo
@@ -100,7 +115,7 @@ Mining
 * submitblock "hexdata" ("jsonparametersobject")
 
 
-Network
+## Network
 -------
 * addnode "node" "add|remove|onetry"
 * clearbanned
@@ -115,7 +130,7 @@ Network
 * setban "ip(/netmask)" "add|remove" (bantime) (absolute)
 
 
-Raw Transactions
+## Raw Transactions
 ----------------
 * createrawtransaction [{"txid":"id","vout":n},...] {"address":amount,"data":"hex",...} ( locktime )
 * decoderawtransaction "hexstring"
@@ -126,7 +141,7 @@ Raw Transactions
 * signrawtransaction "hexstring" ( [{"txid":"id","vout":n,"scriptPubKey":"hex","redeemScript":"hex"},...] ["privatekey1",...] sighashtype )
 
 
-Utility Function
+## Utility Function
 ----------------
 * createmultisig nrequired ["key",...]
 * estimatefee nblocks
@@ -137,7 +152,7 @@ Utility Function
 * verifymessage "dynamicaddress" "signature" "message"
 
 
-Wallet
+## Wallet
 ------
 * abandontransaction "txid"
 * addmultisigaddress nrequired ["key",...] ( "account" )

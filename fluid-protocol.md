@@ -35,6 +35,23 @@ Workflow:  Currently, there are only RPC commands to create and view Fluid trans
 
 To run the examples on testnet, you will need to import the private keys for at least three sovereign testnet wallet address.  All Fluid transaction cost 100,000 DYN to run so you will need to verify you have the balance when you send the transaction in the last step.
 
+## Fluid RPC Calls
+--------------
+* burndynamic "amount" "account"
+* consenttoken "address" "tokenkey"
+* getfluidhistory
+* getfluidhistoryraw
+* getfluidsovereigns
+* gettime
+* getrawpubkey "address"
+* maketoken "amount" "time" "receive address>"
+* sendfluidtransaction "hexstring"
+* signtoken "address" "tokenkey"
+* verifyquorum "tokenkey"
+
+## Fluid Protocol Code
+
+
 The Dynamic testnet has 5 initial sovereign wallet addresses. This example shows how to import the sovereign private key:
 
 * DSCex4e189aULrig3nLd42gVf7AbjTwnP5
