@@ -164,7 +164,7 @@ $./dynamic-cli getfluidhistory
 
 ```bash
 # Example fluid mint coin transaction
-$./dynamic-cli getrawtransaction A56994dd9654290cda929f9c6a9ba27cadabeaff6cec45ceb6baa09533123371 1 
+$./dynamic-cli getrawtransaction a56994dd9654290cda929f9c6a9ba27cadabeaff6cec45ceb6baa09533123371 1 
 {
   "txid": "a56994dd9654290cda929f9c6a9ba27cadabeaff6cec45ceb6baa09533123371",
   "size": 523,
@@ -313,7 +313,7 @@ $./dynamic-cli getrawtransaction a56994dd9654290cda929f9c6a9ba27cadabeaff6cec45c
 }
 ```
 
-## Changing Dynode Rewards on testnet
+## Changing Mining Rewards on testnet
 Example on how to update the Dynamic mining reward per block to 1.9735 DYN coins with fluid:  
 
 ```bash
