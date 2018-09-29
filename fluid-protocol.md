@@ -52,9 +52,9 @@ To run the examples on testnet, you will need to import the private keys for at 
 ### Fluid Protocol Code
 All of the code for the fluid protocol can be found in these files:
 
-* [fluid.h](https://github.com/duality-solutions/Dynamic/blob/master/src/fluid.h)
-* [fluid.cpp](https://github.com/duality-solutions/Dynamic/blob/master/src/fluid.cpp)
-* [rpcfluid.cpp](https://github.com/duality-solutions/Dynamic/blob/master/src/rpcfluid.cpp)
+* [fluid.h](https://github.com/duality-solutions/Dynamic/blob/master/src/fluid/fluid.h)
+* [fluid.cpp](https://github.com/duality-solutions/Dynamic/blob/master/src/fluid/fluid.cpp)
+* [rpcfluid.cpp](https://github.com/duality-solutions/Dynamic/blob/master/src/fluid/rpcfluid.cpp)
 
 
 ## Importing a Sovereign Wallet Address
