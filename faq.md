@@ -22,7 +22,7 @@ pShare is a Privacy oriented peer to peer file and folder sharing application al
 pSign is a document signature and workflow application, allowing secure digital signing and providing templates, libraries and full automation.
 
 
-##DYNAMIC
+## DYNAMIC
 
 ### What mining algorithm does Dynamic use and why?
 Dynamic uses Argon2d, which is specifically designed to be much harder for specialised hardware such as ASICs, as it is memory-hard and scalable.
