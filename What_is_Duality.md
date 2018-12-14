@@ -12,7 +12,7 @@ Under Technology you can find our major improvements we have added to Dynamic. N
 
 Here is an index of the different PDF documents which we include in documentation:
 
-* [Dynamic Bootstrap Instructions](Dynamic Bootstrap Instructions.pdf)
+* [Dynamic Bootstrap Instructions](Dynamic_Bootstrap_Instructions.pdf)
 * [Dynode Setup Guide](Dynode-Setup-Guide.pdf)
 * [Stake Sequence Using Rasp-Pi](Stake_Sequence_Using_Rasp-Pi.pdf)
 * [Staking Sequence Guide](Sequence_Staking_Guide.pdf)
