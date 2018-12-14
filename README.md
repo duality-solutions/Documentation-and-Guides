@@ -7,15 +7,6 @@ Data is stored securely and verified automatically via a shared ledger, supporte
 
 This removes the requirement for many needed resources, third-parties, maintenance, unneeded costs and time.
 
-## Our Mission
-Duality Blockchain Solutions contributes towards society by offering BaaS (Blockchain as a Service).
-
-## Our Vision
-To secure end-user purchasing power and identity with blockchain technology.
-
-## Our Values
-To provide financial sovereignty and improve societal standards in a world of increasing austerity.
-
 ## Documentation Guide
 Under Technology you can find our major improvements we have added to Dynamic. Next you see Documentation which shows you certain guides with the Dynamic and Sequence blockchains. Finally you have the about section which hosts everything else such as license, faqs, etc.
 
