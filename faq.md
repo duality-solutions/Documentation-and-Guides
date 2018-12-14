@@ -2,9 +2,6 @@
 
 ## GENERAL
 
-### FAQs
-The FAQs will be added here in the future but for now you can go to the Duality website [here](https://duality.solutions/get-started/) to view the FAQs.
-
 ### What is Duality?
 Duality provides solutions for secure data storage and verification, both to companies and the public through the use of a public network of nodes. 
 Data is stored securely and verified automatically via a shared ledger, supported by the two blockchains Sequence(SEQ) and Dynamic(DYN). This removes the requirement for many needed resources, third-parties, maintenance, unneeded costs and time.
