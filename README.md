@@ -1,7 +1,11 @@
 # Duality Blockchain Solutions LLC
 
 ## What is Duality?
-“Duality” is a community-driven project that emerged during the 2014 altcoin boom and took its final form in 2017 as Duality Blockchain Solutions LLC. We at Duality believe that real innovation happens at the fringe by real people with pragmatic answers and prompt implementations to fundamental problems. Duality, as a social construct, aspires to evolve by staying true to its roots.
+Duality provides solutions for secure data storage and verification to both companies and the public through the use of a hybrid public/private network.
+
+Data is stored securely and verified automatically via a shared ledger, supported by the two blockchains Sequence(SEQ) and Dynamic(DYN).
+
+This removes the requirement for many needed resources, third-parties, maintenance, unneeded costs and time.
 
 ## Our Mission
 Duality Blockchain Solutions contributes towards society by offering BaaS (Blockchain as a Service).
@@ -18,16 +22,16 @@ Under Technology you can find our major improvements we have added to Dynamic. N
 Here is an index of the different PDF documents which we include in documentation:
 
 * [Dynamic Bootstrap Instructions](Dynamic(DYN) Bootstrap Instructions.pdf)
-* [How to Setup Dynode Guide](/[HOW TO] Dynode-Setup-Guide.pdf)
+* [Dynode Setup Guide](/Dynode-Setup-Guide.pdf)
 * [How to Setup Sequence Staking using a Raspberry Pi Guide]([HOW TO] Stake Sequence Using Rasp-Pi.pdf)
 * [KYC Announcement](KYC_Announcement.pdf)
-* [SEQ Guide - How to split coins for better staking](SEQ Guide - How to split coins for better staking.pdf)
+* [Staking Sequence Guide](Sequence_Staking_Guide.pdf)
 
 ## About
 This document and guide repository is a mkdocs project built with `mkdocs-material`. You can view an active version [here](http://duality-solutions.github.io). We included the mkdocs.yml file here in the repository for you to create it on your own if you wish.
 
 ## Get in Touch
-* [Discord](https://discord.gg/NCCPaJd)
+* [Discord](https://discord.gg/qnsEdsV)
 * [Twitter](https://twitter.com/dualitychain)
 * [Github](https://github.com/duality-solutions)
 * [Contact](https://duality.solutions/contact-us)
