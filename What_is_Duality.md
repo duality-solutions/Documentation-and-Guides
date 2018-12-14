@@ -12,10 +12,9 @@ Under Technology you can find our major improvements we have added to Dynamic. N
 
 Here is an index of the different PDF documents which we include in documentation:
 
-* [Dynamic Bootstrap Instructions](/Dynamic(DYN) Bootstrap Instructions.pdf)
-* [Dynode Setup Guide](/Dynode-Setup-Guide.pdf)
-* [How to Setup Sequence Staking using a Raspberry Pi Guide](/[HOW TO] Stake Sequence Using Rasp-Pi.pdf)
-* [KYC Announcement](KYC_Announcement.pdf)
+* [Dynamic Bootstrap Instructions](Dynamic(DYN) Bootstrap Instructions.pdf)
+* [Dynode Setup Guide](Dynode-Setup-Guide.pdf)
+* [How to Setup Sequence Staking using a Raspberry Pi Guide]([HOW TO] Stake Sequence Using Rasp-Pi.pdf)
 * [Staking Sequence Guide](Sequence_Staking_Guide.pdf)
 
 ## About
