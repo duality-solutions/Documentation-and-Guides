@@ -14,7 +14,7 @@ Here is an index of the different PDF documents which we include in documentatio
 
 * [Dynamic Bootstrap Instructions](Dynamic Bootstrap Instructions.pdf)
 * [Dynode Setup Guide](Dynode-Setup-Guide.pdf)
-* [How to Setup Sequence Staking using a Raspberry Pi Guide](Stake Sequence Using Rasp-Pi.pdf)
+* [Stake Sequence Using Rasp-Pi](Stake_Sequence_Using_Rasp-Pi.pdf)
 * [Staking Sequence Guide](Sequence_Staking_Guide.pdf)
 
 ## About
