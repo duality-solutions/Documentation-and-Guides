@@ -61,7 +61,7 @@ The minimum transfer fee is 0.0001 Dynamic.
 The size of a block on the Dynamic blockchain is a maximum of 4MB.
 
 ### How many Dynamic could be in circulation after all rewards are produced?
-The total number of Dynamic that could end up in circulation after millennia is 263-1 or in other terms 9,223,372,036,854,775,806.
+The total number of Dynamic that could end up in circulation after millennia is 2<sup>63</sup> - 1 or in other terms 9,223,372,036,854,775,806.
 
 ### What is InstantSend?
 InstantSend is a utility to automatically verify and settle a payment within seconds. Fees and costs normally incurred by transferring funds quickly are reduced via the use of blockchain technology.
@@ -105,4 +105,4 @@ The minimum transfer fee is 0.001 Sequence.
 The size of a block on the Sequence blockchain is a maximum of 4MB.
 
 ### How many Sequence could be in circulation after all rewards are produced?
-The total number of Sequence (SEQ) that could end up in circulation after millennia is 263-1 or in other terms 9,223,372,036,854,775,806.
+The total number of Sequence (SEQ) that could end up in circulation after millennia is 2<sup>63</sup> - 1 or in other terms 9,223,372,036,854,775,806.
