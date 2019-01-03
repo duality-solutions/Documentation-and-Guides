@@ -17,6 +17,7 @@ Here is an index of the different PDF documents which we include in documentatio
 * [Dynode Setup Guide](Dynode-Setup-Guide.pdf)
 * [Stake Sequence Using Rasp-Pi](Stake_Sequence_Using_Rasp-Pi.pdf)
 * [Staking Sequence Guide](Sequence_Staking_Guide.pdf)
+* [KYC Announcement](KYC_Announcement.pdf)
 
 ## Get in Touch
 * [Discord](https://discord.gg/qnsEdsV)
