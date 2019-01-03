@@ -5,7 +5,7 @@ This guide will show you how to build dynamicd (headless client) for OSX.
 Notes
 -----
 
-* Tested on OS X 10.7 through 10.12.6 on 64-bit Intel processors only.
+* Tested on OS X 10.7 through 10.13.6 on 64-bit Intel processors only.
 
 * All of the commands should be executed in a Terminal application. The
 built-in one is located in `/Applications/Utilities`.
@@ -36,7 +36,7 @@ sections below.
 Instructions: Homebrew
 ----------------------
 
-#### Install dependencies using Homebrew
+#### Install dependencies using Homebrew for Daemon & Qt
 
     $ brew install git autoconf automake libevent libtool boost --c++11 miniupnpc openssl pkg-config qt berkeley-db4
     $ brew install homebrew/versions/protobuf260 --c++11
@@ -49,7 +49,7 @@ Because of OS X having LibreSSL installed we have to tell the compiler where Ope
     
 or you can instead symlink your newly installed OpenSSL:
 
-    $ sudo ln -s openssl-1.0.2j /usr/local/openssl
+    $ sudo ln -s openssl-1.0.2q /usr/local/openssl
 
 (the above version of OpenSSL may differ to the one you have installed, amend to suit)
 
@@ -59,9 +59,75 @@ After exiting you will want to symlink berkeley-db4 and qt:
     $ brew link qt --force
     $ brew link boost --c++11 --force    
 
+Disable-wallet mode
+--------------------
+When the intention is to run only a P2P node without a wallet, dynamic may be compiled in
+disable-wallet mode with:
 
-### Building `dynamicd`
+    ./configure --disable-wallet
 
+In this case there is no dependency on Berkeley DB 4.8.
+
+Mining is also possible in disable-wallet mode, but only using the `getblocktemplate` RPC
+call not `getwork`.
+
+AVX2 Mining Optimisations
+-------------------------
+For increased performance when mining, AVX2 optimisations can be enabled. 
+
+At configure time:
+
+    --enable-avx2
+    
+CPU's with AVX2 support:
+
+    Intel
+        Haswell processor, Q2 2013
+        Haswell E processor, Q3 2014
+        Broadwell processor, Q4 2014
+        Broadwell E processor, Q3 2016
+        Skylake processor, Q3 2015
+        Kaby Lake processor, Q3 2016(ULV mobile)/Q1 2017(desktop/mobile)
+        Coffee Lake processor, expected in 2017
+        Cannonlake processor, expected in 2018
+    AMD
+        Carrizo processor, Q2 2015
+        Ryzen processor, Q1 2017
+
+AVX512 Mining Optimisations
+-------------------------
+For increased performance when mining, AVX512 optimisations can be enabled. 
+
+At configure time:
+
+    --enable-avx512f
+    
+CPU's with AVX512 support:
+
+    Intel
+        Xeon Phi x200/Knights Landing processor, 2016
+        Knights Mill processor, 2017
+        Skylake-SP processor, 2017
+        Skylake-X processor, 2017
+        Cannonlake processor, expected in 2018
+        Ice Lake processor, expected in 2018
+
+GPU Mining
+----------
+To enable GPU mining within the wallet, OpenCL or CUDA can be utilised. For CUDA to be utilised please use CUDA 9.1 or newer and ensure you have graphics drivers installed. OSX contains libraries and headers for OpenCL and no dependencies are required to be downloaded.
+    
+For CUDA please visit: https://docs.nvidia.com/cuda/cuda-installation-guide-mac-os-x/index.html
+    
+At configure time for OpenCL(Nvidia/AMD):
+
+    --enable-gpu 
+
+At configure time for CUDA(Nvidia):
+
+    --enable-gpu --enable-cuda
+    
+Building Dynamic
+----------------
 1. Clone the github tree to get the source code and go into the directory.
 
         git clone https://github.com/duality-solutions/dynamic.git
