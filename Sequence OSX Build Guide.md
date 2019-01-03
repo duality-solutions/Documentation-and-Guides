@@ -5,7 +5,7 @@ This guide will show you how to build sequenced (headless client) for OSX.
 Notes
 -----
 
-* Tested on OS X 10.7 through 10.12.3 on 64-bit Intel processors only.
+* Tested on OS X 10.7 through 10.13.6 on 64-bit Intel processors only.
 
 * All of the commands should be executed in a Terminal application. The
 built-in one is located in `/Applications/Utilities`.
@@ -42,7 +42,7 @@ sections below.
 Instructions: Homebrew
 ----------------------
 
-#### Install dependencies using Homebrew
+#### Install dependencies using Homebrew for Daemon & Qt
 
     $ brew install git autoconf automake libevent libtool boost --c++11 miniupnpc openssl pkg-config qt berkeley-db4
     $ brew install homebrew/versions/protobuf260 --c++11
@@ -54,7 +54,7 @@ Because of OS X having LibreSSL installed we have to tell the compiler where Ope
     
 or you can instead symlink your newly installed OpenSSL:
 
-    $ sudo ln -s openssl-1.0.2j /usr/local/openssl
+    $ sudo ln -s openssl-1.0.2q /usr/local/openssl
 
 (the above version of OpenSSL may differ to the one you have installed, amend to suit)
 
