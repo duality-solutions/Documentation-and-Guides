@@ -13,10 +13,10 @@ Next you see Documentation which shows you certain guides with the Dynamic and S
 Here is an index of the different PDF documents which we include in documentation:
 
 * [BDAP End-to-End Encryption Specification](BDAP_E2E_spec_v1.1.pdf)
-* [Dynamic README](Dynamic README.pdf)
+* [Dynamic README](Dynamic_README.pdf)
 * [Dynamic Bootstrap Instructions](Dynamic_Bootstrap_Instructions.pdf)
 * [Dynode Setup Guide](Dynode-Setup-Guide.pdf)
-* [Sequence README](Sequence README.pdf)
+* [Sequence README](Sequence_README.pdf)
 * [Staking Sequence Guide](Sequence_Staking_Guide.pdf)
 * [Stake Sequence Using Rasp-Pi](Stake_Sequence_Using_Rasp-Pi.pdf)
 * [KYC Announcement](KYC_Announcement.pdf)
