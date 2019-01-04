@@ -23,6 +23,7 @@ Here is an index of the different PDF documents which we include in documentatio
 * [Sequence UNIX Build Guide](Sequence_UNIX_Build_Guide.pdf)
 * [Staking Sequence Guide](Sequence_Staking_Guide.pdf)
 * [Stake Sequence Using Rasp-Pi](Stake_Sequence_Using_Rasp-Pi.pdf)
+* [FAQ](FAQ.pdf)
 * [Fluid Protocol](Fluid_Protocol.pdf)
 * [KYC Announcement](KYC_Announcement.pdf)
 
