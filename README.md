@@ -1,4 +1,4 @@
-# Duality Blockchain Solutions LLC
+# Duality Blockchain Solutions
 
 ## What is Duality?
 Duality provides solutions for secure data storage and verification to both companies and the public through the use of a hybrid public/private network.
