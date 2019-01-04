@@ -14,11 +14,16 @@ Here is an index of the different PDF documents which we include in documentatio
 
 * [BDAP End-to-End Encryption Specification](BDAP_E2E_spec_v1.1.pdf)
 * [Dynamic README](Dynamic_README.pdf)
+* [Dynamic OSX Build Guide](Dynamic_OSX_Build_Guide.pdf)
+* [Dynamic UNIX Build Guide](Dynamic_UNIX_Build_Guide.pdf)
 * [Dynamic Bootstrap Instructions](Dynamic_Bootstrap_Instructions.pdf)
 * [Dynode Setup Guide](Dynode-Setup-Guide.pdf)
 * [Sequence README](Sequence_README.pdf)
+* [Sequence OSX Build Guide](Sequence_OSX_Build_Guide.pdf)
+* [Sequence UNIX Build Guide](Sequence_UNIX_Build_Guide.pdf)
 * [Staking Sequence Guide](Sequence_Staking_Guide.pdf)
 * [Stake Sequence Using Rasp-Pi](Stake_Sequence_Using_Rasp-Pi.pdf)
+* [Fluid Protocol](Fluid_Protocol.pdf)
 * [KYC Announcement](KYC_Announcement.pdf)
 
 ## Get in Touch
