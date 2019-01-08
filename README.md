@@ -12,6 +12,10 @@ Next you see Documentation which shows you certain guides with the Dynamic and S
 
 Here is an index of the different PDF documents which we include in documentation:
 
+* [Duality Solutions Website Terms and Conditions](Duality_Solutions_Website_Terms_and_Conditions.pdf)
+* [Duality Solutions Website Privacy Policy](Duality_Solutions_Website_Privacy_Policy.pdf)
+* [Duality Solutions Website Cookie Policy](Duality_Solutions_Website_Cookie_Policy.pdf)
+* [Duality Solutions Website Disclaimer](Duality_Solutions_Website_Disclaimer.pdf)
 * [BDAP End-to-End Encryption Specification](BDAP_E2E_spec_v1.1.pdf)
 * [Dynamic README](Dynamic_README.pdf)
 * [Dynamic OSX Build Guide](Dynamic_OSX_Build_Guide.pdf)
